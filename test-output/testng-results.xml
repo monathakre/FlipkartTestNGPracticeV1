@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="4" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[driver started]]>
+    </line>
+    <line>
+      <![CDATA[driver closed]]>
+    </line>
+    <line>
+      <![CDATA[driver started]]>
+    </line>
+    <line>
+      <![CDATA[driver closed]]>
+    </line>
+    <line>
+      <![CDATA[driver started]]>
+    </line>
+    <line>
+      <![CDATA[driver closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="201886" started-at="2021-05-12T09:38:11 IST" finished-at="2021-05-12T09:41:33 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="201886" started-at="2021-05-12T09:38:11 IST" finished-at="2021-05-12T09:41:33 IST">
+      <class name="com.qa.flipkart.tests.SearchPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.flipkart.tests.SearchPageTest@59e5ddf]" name="setup" is-config="true" duration-ms="19569" started-at="2021-05-12T09:40:19 IST" finished-at="2021-05-12T09:40:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selectDesiredItem()[pri:0, instance:com.qa.flipkart.tests.SearchPageTest@59e5ddf]" name="selectDesiredItem" duration-ms="54059" started-at="2021-05-12T09:40:39 IST" finished-at="2021-05-12T09:41:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDesiredItem -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.qa.flipkart.tests.SearchPageTest@59e5ddf]" name="destroy" is-config="true" duration-ms="526" started-at="2021-05-12T09:41:33 IST" finished-at="2021-05-12T09:41:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- com.qa.flipkart.tests.SearchPageTest -->
+      <class name="com.qa.flipkart.tests.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.flipkart.tests.HomePageTest@646d64ab]" name="setup" is-config="true" duration-ms="62363" started-at="2021-05-12T09:38:11 IST" finished-at="2021-05-12T09:39:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[driver started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="skipm()[pri:0, instance:com.qa.flipkart.tests.HomePageTest@646d64ab]" name="skipm" duration-ms="94" started-at="2021-05-12T09:39:14 IST" finished-at="2021-05-12T09:39:14 IST">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[method skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: method skipped
+at com.qa.flipkart.tests.HomePageTest.skipm(HomePageTest.java:66)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipm -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.qa.flipkart.tests.HomePageTest@646d64ab]" name="destroy" is-config="true" duration-ms="733" started-at="2021-05-12T09:39:14 IST" finished-at="2021-05-12T09:39:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[driver closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.flipkart.tests.HomePageTest@646d64ab]" name="setup" is-config="true" duration-ms="27237" started-at="2021-05-12T09:39:15 IST" finished-at="2021-05-12T09:39:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[driver started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="title_validation()[pri:0, instance:com.qa.flipkart.tests.HomePageTest@646d64ab]" name="title_validation" duration-ms="1212" started-at="2021-05-12T09:39:42 IST" finished-at="2021-05-12T09:39:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title_validation -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.qa.flipkart.tests.HomePageTest@646d64ab]" name="destroy" is-config="true" duration-ms="3302" started-at="2021-05-12T09:39:43 IST" finished-at="2021-05-12T09:39:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[driver closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.flipkart.tests.HomePageTest@646d64ab]" name="setup" is-config="true" duration-ms="29825" started-at="2021-05-12T09:39:47 IST" finished-at="2021-05-12T09:40:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[driver started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchItem()[pri:1, instance:com.qa.flipkart.tests.HomePageTest@646d64ab]" name="searchItem" duration-ms="1889" started-at="2021-05-12T09:40:16 IST" finished-at="2021-05-12T09:40:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.qa.flipkart.tests.HomePageTest@646d64ab]" name="destroy" is-config="true" duration-ms="859" started-at="2021-05-12T09:40:18 IST" finished-at="2021-05-12T09:40:19 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[driver closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- com.qa.flipkart.tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
